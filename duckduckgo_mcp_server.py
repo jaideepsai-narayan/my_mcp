@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+# https://geocoding-api.open-meteo.com/v1/search?name=Hyderabad&count=1
 from mcp.server.fastmcp import FastMCP
 import requests
 from bs4 import BeautifulSoup
