@@ -1,5 +1,8 @@
 #!/usr/bin/env python3
+===========weather=======================================================================================================================
 # https://geocoding-api.open-meteo.com/v1/search?name=Hyderabad&count=1
+# https://api.open-meteo.com/v1/forecast?latitude=17.38405&longitude=78.45636&current=temperature_2m,relative_humidity_2m,rain,weather_code
+===========================================================================================================================================
 from mcp.server.fastmcp import FastMCP
 import requests
 from bs4 import BeautifulSoup
